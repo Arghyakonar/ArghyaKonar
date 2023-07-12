@@ -1,4 +1,4 @@
-                                                    𝐅𝐫𝐨𝐧𝐭-𝐞𝐧𝐝 𝐋𝐚𝐧𝐝𝐢𝐧𝐠 𝐏𝐚𝐠𝐞
+                                              𝐅𝐫𝐨𝐧𝐭-𝐞𝐧𝐝 𝐋𝐚𝐧𝐝𝐢𝐧𝐠 𝐏𝐚𝐠𝐞
                                                       
 This repository contains the frontend code for my portfolio. The landing page is a crucial component of our online presence, designed to attract visitors and convert them into customers. In this repository, you will find all the necessary HTML, CSS, and JavaScript files required to build and deploy the landing page.
 
