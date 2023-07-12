@@ -2257,6 +2257,7 @@ header .logo a {
 }
 
 #contact form {
+	width: 30%;
 	margin-top: 0;
 	margin-bottom: 3rem;
 }
@@ -2317,10 +2318,10 @@ header .logo a {
 	border-color: #00FFFF;
 	color: #FFFFFF;
 }
-#contact textarea {
+/* #contact textarea {
 	min-height: 20rem;
 	padding: 1rem 10rem ;
-}
+} */
 #contact textarea:focus {
 	border-color: #00FFFF;
 	color: #FFFFFF;
