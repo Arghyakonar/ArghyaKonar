@@ -202,7 +202,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   
 	// Perform form submission (simulated here using setTimeout)
 	setTimeout(function() {
-	  var isSuccess = Math.random() < 0.5; // Simulate success or failure randomly
+	  var isSuccess = true; 
   
 	  if (isSuccess) {
 		alert("Your message has been sent!"); // Display success message
