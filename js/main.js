@@ -191,33 +191,32 @@
 //  Email sent msg ................
 
 
-	document.getElementById("contactForm").addEventListener("submit", function(event) {
-		event.preventDefault(); // Prevent the form from submitting normally
-		
-		// Get form values
-		var name = document.getElementById("contactName").value;
-		var email = document.getElementById("contactEmail").value;
-		var subject = document.getElementById("contactSubject").value;
-		var message = document.getElementById("contactMessage").value;
-		
-		// Perform form submission (simulated here using setTimeout)
-		setTimeout(function() {
-		  var isSuccess = Math.random() < 0.5; // Simulate success or failure randomly
-		  
-		  if (isSuccess) {
-			alert("Your message has been sent!"); // Display success message
-		  } else {
-			alert("Error sending message. Please try again."); // Display error message
-		  }
-		}, 1000); // Simulate a delay of 1 second for form submission
-		
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+	event.preventDefault(); // Prevent the form from submitting normally
+  
+	// Get form values
+	var name = document.getElementById("contactName").value;
+	var email = document.getElementById("contactEmail").value;
+	var subject = document.getElementById("contactSubject").value;
+	var message = document.getElementById("contactMessage").value;
+  
+	// Perform form submission (simulated here using setTimeout)
+	setTimeout(function() {
+	  var isSuccess = Math.random() < 0.5; // Simulate success or failure randomly
+  
+	  if (isSuccess) {
+		alert("Your message has been sent!"); // Display success message
+  
 		// Reset form fields
 		document.getElementById("contactName").value = "";
 		document.getElementById("contactEmail").value = "";
 		document.getElementById("contactSubject").value = "";
 		document.getElementById("contactMessage").value = "";
-	  });
-	  
+	  } else {
+		alert("Error sending message. Please try again."); // Display error message
+	  }
+	}, 1000); // Simulate a delay of 1 second for form submission
+  });
 
 
 	/*---------------------------------------------------- */
