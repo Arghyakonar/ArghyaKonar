@@ -2,6 +2,8 @@
                                                       
 This repository contains the frontend code for my portfolio. The landing page is a crucial component of our online presence, designed to attract visitors and convert them into customers. In this repository, you will find all the necessary HTML, CSS, and JavaScript files required to build and deploy the landing page.
 
+Link : https://arghyakonar.github.io/ArghyaKonar/
+
 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 𝐌𝐨𝐝𝐞𝐫𝐧 𝐃𝐞𝐬𝐢𝐠𝐧: The landing page is built with a modern and sleek design to create a visually appealing experience for visitors.
 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞: The page is fully responsive, ensuring that it looks great and functions well on all devices and screen sizes.
